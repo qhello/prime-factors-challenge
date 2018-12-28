@@ -24,8 +24,11 @@ In this project, I'm assuming that jobs can be reused. Therefore one number can 
 - Open a terminal, type following commands:
 
     `git clone https://github.com/qhello/prime-factors-challenge.git`
+    
     `cd prime-factors-challenge/`
+    
     `docker-compose build`
+    
     `docker-compose up --scale worker=1` (Worker service can easily be scaled up this way)
 
 - open this link in your browser: http://localhost:3000/primeFactors/100 (change 100 to any number)
