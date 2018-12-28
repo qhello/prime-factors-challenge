@@ -1,0 +1,25 @@
+{
+  "name": "craft-ai-api-challenge",
+  "version": "1.0.0",
+  "description": "API with long running job, calculating prime factorization of any given integer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Hello",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-prettier": "^3.3.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.15.3"
+  }
+}

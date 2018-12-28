@@ -1,0 +1,12 @@
+arrowParens: avoid
+bracketSpacing: true
+insertPragma: false
+printWidth: 100
+parser: babylon
+proseWrap: preserve
+requirePragma: false
+semi: false
+singleQuote: true
+tabWidth: 2
+trailingComma: es5
+useTabs: false

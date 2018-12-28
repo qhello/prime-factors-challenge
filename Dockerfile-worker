@@ -1,0 +1,11 @@
+FROM node:lts-alpine
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN npm install
+
+CMD node lib/worker.js
+
+EXPOSE 3000
